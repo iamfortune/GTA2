@@ -12,11 +12,6 @@ button.addEventListener("click", function() {
 })
 
 
-//me trying to copy the above but in this case i want to 
-//create date as the user inputs a button, need
-//to search which kind of node, a date contains
-//find a way to add delete as an icon without putting the 
-//html markup for delete.
 button.addEventListener("click", function() {
     if(input.value.length > 0) {
         var li = document.create 
@@ -30,4 +25,17 @@ input.addEventListener("keypress", function(event) {
     ul.appendChild(li);
     input.value = "";
     }
+})
+
+
+//please look at this for me, is there a way i can append 
+// a date to every new "li" element that is created
+//please help me 
+
+input.addEventListener("keypress", function(event) {
+    var date = document.createTextNode(date),
+    li = document.getElementsByClassName("date");
+    li.appendChild(date);
+
+//    li.appendChild(document.createTextNode)
 })
