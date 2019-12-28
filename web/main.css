@@ -39,6 +39,18 @@ li:nth-child(2n) {
 input {
     font-size: 18px;
     background: #f7f7f7;
-    padding: 13px 13px 13px 20px;
-    width: 100%;
+    padding: 13px 13px 13px;
+    width: 50%;
 }
+
+input:focus {
+    background: #f7f7f7;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+#enter {
+    width: 20%;
+    height: 11vh;
+}
+
