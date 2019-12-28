@@ -28,14 +28,10 @@ input.addEventListener("keypress", function(event) {
 })
 
 
-//please look at this for me, is there a way i can append 
-// a date to every new "li" element that is created
-//please help me 
+// input.addEventListener("keypress", function(event) {
+//     var date = document.createTextNode(date),
+//     li = document.getElementsByClassName("date");
+//     li.appendChild(date);
 
-input.addEventListener("keypress", function(event) {
-    var date = document.createTextNode(date),
-    li = document.getElementsByClassName("date");
-    li.appendChild(date);
+// });
 
-//    li.appendChild(document.createTextNode)
-})
