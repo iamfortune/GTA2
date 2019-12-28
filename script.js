@@ -20,7 +20,7 @@ function inputLength(){
 }
 
 function createListElement() {
-	var btn = document.createElement("button");
+    var btn = document.createElement("button");
 	btn.innerHTML = "x";
 	btn.onclick = removeParent;
     
