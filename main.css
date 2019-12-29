@@ -27,6 +27,12 @@ h1 {
     font-weight: 400;
 }
 
+/* class for the h1 and input */
+
+.nav {
+    position: relative;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -38,6 +44,7 @@ li {
     height: 35px;
     line-height: 35px;
     color: #063852;
+    padding-left: 15px;
 }
 
 li:nth-child(2n) {
@@ -80,3 +87,4 @@ button {
     border: rgba(0, 0, 0, 0.1);
     background: #f7f7f7;
 }
+
