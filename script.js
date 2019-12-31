@@ -26,7 +26,7 @@ function createListElement() {
     
 	var li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
-	li.innerHTML = li.innerHTML + " ";
+	li.innerHTML = li.innerHTML + "........ set on " + moment().format("DD/MM/YYYY") +"  ";
 	li.appendChild(btn);
 
 	ul.appendChild(li);
