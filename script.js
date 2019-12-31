@@ -52,12 +52,7 @@ button.addEventListener("click", addToListAfterClick);
 input.addEventListener("keypress", addToListAfterKeypress);
 
 
-// input.addEventListener("keypress", function(event) {
-//     var date = document.createTextNode(date),
-//     li = document.getElementsByClassName("date");
-//     li.appendChild(date);
 
-// });
 
 
 
